@@ -6,9 +6,8 @@ public class Calc {
     {
         return x+y;
     }
-
-    public int subtract(int x, int y)
-    {
-        return x*y;
+    public int subtract(int a, int b) {
+        return a - b;  // 正确的实现应该是 a 减去 b
     }
+
 }
